@@ -1,0 +1,84 @@
+/*Navegación superior*/
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+form {
+    text-align: center;
+}
+
+fieldset {
+    margin: 50px;
+}
+
+.centered{
+    text-align: center;
+}
+
+.topnav a {
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+div.column {
+    width: 5%;
+    float: left;
+}
+
+div.fila {
+    text-align: center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+.topnav a.active {
+background-color: #868686;
+color: white;
+}
+
+/*Eliminación de los puntos de la lista */
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.container{
+    margin-top:5%;
+}
+
+.search_bar{
+    display: inline-block;
+}
+
+#tablaEquipos {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#tablaEquipos td, #tablaEquipos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+#tablaEquipos tr:nth-child(even){background-color: #f2f2f2;}
+  
+#tablaEquipos tr:hover {background-color: #ddd;}
+  
+#tablaEquipos th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: rgb(252, 252, 252);
+}

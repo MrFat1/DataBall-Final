@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Busqueda de equipos </title>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="icon" href="data.png">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="active" aria-current="page" href="busqueda.html">Busqueda</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" href="ElBicho.html">PaginaCR7</a>
+                </li>
+                <li class="nav-item">
+                    <a aria-current="page" href="Informacion.html">Informacion</a>
+                </li>
+                <li class="navbar-right">
+                    <a aria-current="page" href="perfil.html">Perfil</a>
+                </li>
+            </ul>
+        </div>
+        <br>
+        <h3 class="centered">Busqueda de equipos</h3>
+        <p class="centered">Selecciona un filtro e introduce la búsqueda deseada.</p>
+        <div class="container">
+        <div class="row">
+        <div class="col-xs-13 col-xs-offset-2">
+        <div class="search_bar col-md-2">
+            <select class="form-control search-slt" name="filtro" id="filtro" required>
+                <option value="filtro" disabled selected>Elige filtro</option>
+                <option value="NOMBRE">Nombre</option>
+                <option value="ENTRENADOR">Entrenador</option>
+                <option value="PRESIDENTE">Presidente</option>
+                <option value="POSICION">Posicion</option>
+                <option value="CAPACIDAD">Capacidad</option>
+                <option value="ESTADIO">Estadio</option>
+            </select>
+        </div>
+        <div class="search_bar col-md-6">
+            <input type="text" class="form-control" name="x" id="search" placeholder="Buscar">
+        </div>
+        <div class="search_bar">
+            <button class="btn btn-default" id="buscarEquipo" type="button">
+            <span class="glyphicon glyphicon-search"></span>
+            </button>
+        </div>
+        </div>
+        </div>
+        </div>
+        <br><br>
+
+        <div id="error-message"></div>
+        <table class="table" id="tablaEquipos"></table>
+
+        <script src="./equipos.js"></script>
+
+    </body>
+</html>
