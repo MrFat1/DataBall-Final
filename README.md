@@ -2,7 +2,7 @@
 
 DataBall es una aplicación para realizar una búsqueda de estadísitcas de jugadores y equipos de fútbol. 
 
-El servidor esta levantado en el puerto 8080 (http://localhost:8888) y dispone de una base de datos H2 cuya consola podrá acceder a través del enlace http://localhost:8888/h2-console/ e introduciendo el ***usuario: sa*** y la ***contraseña: 1234***.
+El servidor esta levantado en el puerto 8080 (http://localhost:8080) y dispone de una base de datos H2 cuya consola podrá acceder a través del enlace http://localhost:8080/h2-console/ e introduciendo el ***usuario: sa*** y la ***contraseña: 1234**
 
 ## Búsqueda
 
